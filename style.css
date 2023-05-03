@@ -76,6 +76,7 @@ a {
 .about {
     position: relative;
     margin: 50px 0 100px 0;
+    line-height: 166%;
 }
 
 .about-text-one {
@@ -92,12 +93,14 @@ a {
     -webkit-background-clip: text;
 	background-clip: text;
 	background-image: linear-gradient(180deg, #9B40FF, #564CFF, #8182FF, #8B42FF);
+    line-height: 124%;
 }
 
 .about-text-three {
     font-size: 22px;
     color: #9D9CCA;
     padding-bottom: 32px;
+    line-height: 175%;
 }
 
 .about__but_one {
@@ -113,23 +116,23 @@ a {
 }
 
 .face-one {
-    top: 0;
+    top: -100px;
     left: 10%;
 }
 
 .face-two {
-    top: 0;
+    top: -90px;
     right: 10%;
 }
 
 .face-three {
     left: 15%;
-    bottom: 5%;
+    bottom: 2%;
 }
 
 .face-four {
     right: 15%;
-    bottom: 5%;
+    bottom: 2%;
 }
 
 .article {
@@ -145,6 +148,7 @@ a {
 	background-clip: text;
 	background-image: linear-gradient(135deg, #9B40FF, #564CFF, #8182FF, #8B42FF);
     padding-bottom: 28px;
+    line-height: 121.47%;
 }
 
 .article:nth-child(2) {
@@ -161,6 +165,7 @@ a {
 
 .blocks {
     display: flex;
+    line-height: 166%;
 }
 
 /*flex basis размер для двух первых блоков по 3 блока*/
@@ -177,12 +182,14 @@ a {
     font-size: 48px;
     font-weight: 800;
     color: #9B99FF;
+    padding-top: 29.33px;
 }
 
 .block-dot > div:nth-child(3) {
     font-size: 16px;
     font-weight: 600;
     color: #9D9CCA;
+    padding-top: 5.33px;
 }
 
 .block-dot > img {
@@ -190,6 +197,7 @@ a {
     border-radius: 100px;    
     background-color: #120e2a;
     padding: 10px;
+    width: 106.67px;
 }
 
 .text-color-but {
@@ -514,16 +522,30 @@ a {
 form {
     display: flex;
     justify-content: center;
+    width: 50%;
+    margin: 0 auto;
     margin-top: 44px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='13' ry='13' stroke='%239D9CCAFF' stroke-width='2' stroke-dasharray='16%2c 8' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 13px;
+    background: #120E2A;
+    
 }
 
 /*на свое усмотрение настроешь flex basis*/
 form > input[type="text"] {
-    flex-basis: 50%;
+    flex-basis: 80%;
+    background: #120E2A;
+    border: 0px;
+    padding: 11px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='13' ry='13' stroke='%239D9CCAFF' stroke-width='2' stroke-dasharray='16%2c 8' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 13px;
 }
 
 form > input[type="submit"] {
     flex-basis: 20%;
+    border: 0px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='13' ry='13' stroke='%239D9CCAFF' stroke-width='2' stroke-dasharray='16%2c 8' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 13px; 
 }
 
 .projects {
@@ -537,18 +559,41 @@ form > input[type="submit"] {
 
 .footer {
     background: #120e2a;
+    line-height: 161.97%;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='16' ry='16' stroke='%2334387FFF' stroke-width='2' stroke-dasharray='16%2c 8' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 16px;
 }
 
 .f-top {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    color: #3D3C7D;
+    
 }
 
 .f-bottom {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.foother__logo {
+    margin-top: 17px;
+}
+
+.foother__main_text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #9D9CCA;
+    margin-top: 34px;
+}
+
+.foother__but_bot {
+    margin-right: 80px;
+}
+
+.foother__bot_text {
+    margin-left: 32px;
 }
 
 
